@@ -7,6 +7,6 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', (req: any, res: Response) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('hello world Vai')
 })
