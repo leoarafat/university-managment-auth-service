@@ -1,15 +1,12 @@
-import express, { Application } from "express";
-// import cors from "cors";
-export const app:Application = express();
-export const port = process.env.PORT || 8000;
+import express, { Application, Request, Response } from 'express'
+import cors from 'cors'
+export const app: Application = express()
+app.use(cors())
 
+//parser
+    app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
-app.use(express.json())
-// app.use(cors())
-
-
-app.get('/', (req, res)=>{
-    res.send('hello world Vai')
+app.get('/', (req: Request, res: Response) => {
+  res.send('hello world Vai')
 })
-
-
