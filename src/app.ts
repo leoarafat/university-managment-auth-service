@@ -3,7 +3,6 @@ import cors from 'cors'
 export const app: Application = express()
 //cors
 app.use(cors())
-//Hello world
 
 //parser
 app.use(express.json())
