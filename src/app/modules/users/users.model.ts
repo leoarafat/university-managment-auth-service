@@ -19,18 +19,6 @@ const userSchema = new Schema<IUser>(
       type: String,
       required: true,
     },
-    // studentId: {
-    //   type: String,
-    //   default: null,
-    // },
-    // adminId: {
-    //   type: String,
-    //   default: null,
-    // },
-    // facultyId: {
-    //   type: String,
-    //   default: null,
-    // },
   },
   {
     timestamps: true,
