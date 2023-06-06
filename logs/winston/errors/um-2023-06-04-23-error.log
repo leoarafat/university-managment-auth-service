@@ -1,0 +1,40 @@
+Sun Jun 04 2023 23:15 14 [AP] error: globalErrorHandler x is not defined
+Sun Jun 04 2023 23:34 12 [AP] error: Testing error logger
+Sun Jun 04 2023 23:35 6 [AP] error: Testing error logger
+Sun Jun 04 2023 23:54 46 [AP] error: globalErrorHandler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Sun Jun 04 2023 23:54 55 [AP] error: globalErrorHandler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Sun Jun 04 2023 23:56 25 [AP] error: globalErrorHandler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Sun Jun 04 2023 23:57 30 [AP] error: globalErrorHandler User validation failed: role: Path `role` is required.

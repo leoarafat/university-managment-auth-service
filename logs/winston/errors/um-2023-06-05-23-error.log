@@ -1,0 +1,70 @@
+Mon Jun 05 2023 23:55 58 [AP] error: globalErrorHandler [
+  {
+    "expected": "'Autumn' | 'Summer' | 'Fall'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Year is required"
+  },
+  {
+    "expected": "'01' | '02' | '03'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "startMonth"
+    ],
+    "message": "Started month is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "endMonth"
+    ],
+    "message": "End month is required"
+  }
+]
+Mon Jun 05 2023 23:58 31 [AP] error: globalErrorHandler [
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "startMonth"
+    ],
+    "message": "Started month is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "endMonth"
+    ],
+    "message": "End month is required"
+  }
+]

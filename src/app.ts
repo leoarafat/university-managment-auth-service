@@ -1,13 +1,18 @@
-import express, { Application } from 'express'
-import cors from 'cors'
-import usersRouter from './app/modules/users/users.routes'
+import express, { Application } from 'express';
+import cors from 'cors';
 
-export const app: Application = express()
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import routes from './app/routes';
+
+export const app: Application = express();
 //cors
-app.use(cors())
+app.use(cors());
 
 //parser
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.use('/api/v1/users', usersRouter)
+app.use('/api/v1', routes);
+
+//Global Error Handler
+app.use(globalErrorHandler);
