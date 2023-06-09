@@ -1,0 +1,39 @@
+Fri Jun 09 2023 23:1 24 [AP] error: globalErrorHandler [
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "startMonth"
+    ],
+    "message": "Started month is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "endMonth"
+    ],
+    "message": "End month is required"
+  }
+]
+Fri Jun 09 2023 23:4 1 [AP] error: globalErrorHandler AcademicDepartment validation failed: academicFaculty: Cast to ObjectId failed for value "Department of Sociology" (type string) at path "academicFaculty" because of "BSONError"
+Fri Jun 09 2023 23:5 44 [AP] error: globalErrorHandler Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"
+Fri Jun 09 2023 23:7 31 [AP] error: globalErrorHandler Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"
+Fri Jun 09 2023 23:8 25 [AP] error: globalErrorHandler AcademicDepartment validation failed: academicFaculty: Cast to ObjectId failed for value "Department of Sociology" (type string) at path "academicFaculty" because of "BSONError"
+Fri Jun 09 2023 23:9 30 [AP] error: globalErrorHandler AcademicDepartment validation failed: academicFaculty: Cast to ObjectId failed for value "Department of Sociology" (type string) at path "academicFaculty" because of "BSONError"
+Fri Jun 09 2023 23:10 2 [AP] error: globalErrorHandler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "academicFaculty"
+    ],
+    "message": "Academic Faculty is required"
+  }
+]
