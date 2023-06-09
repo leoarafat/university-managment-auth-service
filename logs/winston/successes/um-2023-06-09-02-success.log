@@ -1,0 +1,54 @@
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-08T18:03:20.089Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-08T18:03:20.101Z'
+}
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-08T18:03:49.238Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-08T18:03:49.251Z'
+}
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-08T18:05:08.393Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-08T18:05:08.407Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.tjc9clz.mongodb.net',
+  level: 'error',
+  label: 'AP',
+  timestamp: '2023-06-08T18:06:59.291Z'
+}
+{
+  errno: undefined,
+  code: 'ENODATA',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.tjc9clz.mongodb.net',
+  level: 'error',
+  label: 'AP',
+  timestamp: '2023-06-08T18:07:18.946Z'
+}

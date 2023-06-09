@@ -1,0 +1,53 @@
+Fri Jun 09 2023 1:21 36 [AP] error: globalErrorHandler [
+  {
+    "expected": "'Autumn' | 'Summer' | 'Fall'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Year is required"
+  },
+  {
+    "expected": "'01' | '02' | '03'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "startMonth"
+    ],
+    "message": "Started month is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "endMonth"
+    ],
+    "message": "End month is required"
+  }
+]
+Fri Jun 09 2023 1:24 49 [AP] error: Academic semester is already exist

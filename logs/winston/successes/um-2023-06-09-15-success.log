@@ -1,0 +1,24 @@
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-09T07:46:57.065Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-09T07:46:57.077Z'
+}
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-09T07:47:27.823Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-06-09T07:47:27.834Z'
+}

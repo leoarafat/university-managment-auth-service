@@ -1,0 +1,25 @@
+Fri Jun 09 2023 17:11 30 [AP] error: globalErrorHandler [
+  {
+    "received": "10",
+    "code": "invalid_enum_value",
+    "options": [
+      "01",
+      "02",
+      "03"
+    ],
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Invalid enum value. Expected '01' | '02' | '03', received '10'"
+  }
+]
+Fri Jun 09 2023 17:11 52 [AP] error: globalErrorHandler [
+  {
+    "code": "custom",
+    "message": "Either both title and code should be provided or neither",
+    "path": []
+  }
+]
+Fri Jun 09 2023 17:17 15 [AP] error: Invalid Semester Code
+Fri Jun 09 2023 17:22 30 [AP] error: Invalid Semester Code

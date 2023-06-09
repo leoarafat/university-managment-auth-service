@@ -1,11 +1,11 @@
+import { Server } from 'http';
 import mongoose from 'mongoose';
 import { app } from './app';
 import config from './config/index';
 import { errorLogger, logger } from './shared/logger';
-import { Server } from 'http';
 
-process.on('uncaughtException', err => {
-  errorLogger.error(err);
+process.on('uncaughtException', error => {
+  errorLogger.error(error);
   process.exit(1);
 });
 

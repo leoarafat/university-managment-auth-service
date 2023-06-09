@@ -1,0 +1,1 @@
+Fri Jun 09 2023 18:33 46 [AP] error: Cast to ObjectId failed for value "647e06893abda119f30ee46" (type string) at path "_id" for model "academicSemester"

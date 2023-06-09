@@ -69,6 +69,76 @@
             "date": 1686032621832,
             "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-06-14-success.log",
             "hash": "c0c05583d0bf6e9a384bf30c8b21e8f9e2e7e7e73c11fd09cc949177cc653ab3"
+        },
+        {
+            "date": 1686233962617,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-08-22-success.log",
+            "hash": "eb94f96ac142bae9fa41458f9fafeff77efb8220e970a95a20c6b65a625e7c13"
+        },
+        {
+            "date": 1686237116525,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-08-23-success.log",
+            "hash": "9f42d9e323de95ad60f333d5b3351554c80097fce16ff290e1a96f4b00298d10"
+        },
+        {
+            "date": 1686241107665,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-00-success.log",
+            "hash": "b880901e191474b4f28b090fc71f62402589fb5e43025d31e27b6c83c3f4c7d4"
+        },
+        {
+            "date": 1686243988695,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-01-success.log",
+            "hash": "18c41b5019dbe5d231de30379197edd31d9fef71ecbaeb7b188037c22f2a36ca"
+        },
+        {
+            "date": 1686247398926,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-02-success.log",
+            "hash": "af9fdd932af41cd9425081eeb1fb7534eaf542f86b53019bcf8f7a025d777c33"
+        },
+        {
+            "date": 1686281858432,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-11-success.log",
+            "hash": "efd3563b8e82f80e3dfd9827aa162b5fa56f63a6fe6fd58b3149543b7d190a43"
+        },
+        {
+            "date": 1686283262921,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-12-success.log",
+            "hash": "8b1cc662c4e9da258ec515a08ebe663ce74fed2e9bd6cdc2df5f20aff680fe21"
+        },
+        {
+            "date": 1686289308001,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-13-success.log",
+            "hash": "d2a0c77fdc56e3e39d6a737e23797676c3cbe30e37465f47cfacdc435e7c55ca"
+        },
+        {
+            "date": 1686290606732,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-14-success.log",
+            "hash": "a950a1afcaf1564092d7defe5e8c592b8bbea339b058ec29a6a497740541ffaf"
+        },
+        {
+            "date": 1686296811084,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-15-success.log",
+            "hash": "47f2487e38d5bace30b9ee56c5663b53b50df6489e89fd191b35709cdc8c9f70"
+        },
+        {
+            "date": 1686299035019,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-16-success.log",
+            "hash": "3ed64f9b59ffe4b74eed267b45024dad374445a778e8a7a58f24fa623e6180c7"
+        },
+        {
+            "date": 1686301206077,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-17-success.log",
+            "hash": "6f7b9122e2c8182971f33c5b1f974788b3204136a806f6e02f824940bd532089"
+        },
+        {
+            "date": 1686305979597,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-18-success.log",
+            "hash": "6f6b800617be710c6fe57c980782322fa82ca9bd2d005af5ad11193c22907edb"
+        },
+        {
+            "date": 1686309794683,
+            "name": "D:\\next-level\\university-management-auth-service\\logs\\winston\\successes\\um-2023-06-09-19-success.log",
+            "hash": "14c8faff181c61b3d1671b022467c2c22e626d05d50a30c6baf7995e4f61fa96"
         }
     ],
     "hashType": "sha256"
