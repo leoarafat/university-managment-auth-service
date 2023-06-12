@@ -21,3 +21,8 @@ app.use(globalErrorHandler);
 
 //handle not found
 app.use(NotFoundHandler.handle);
+// const testFunction = async () => {
+//   const testId = await generateFacultyId();
+//   console.log(testId);
+// };
+// testFunction();

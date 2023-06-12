@@ -1,0 +1,15 @@
+Sun Jun 11 2023 23:12 28 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:14 43 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:15 43 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:16 58 [AP] error: globalErrorHandler Cannot read properties of undefined (reading 'year')
+Sun Jun 11 2023 23:19 22 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:19 42 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:23 25 [AP] error: globalErrorHandler E11000 duplicate key error collection: university-management.users index: id_1 dup key: { id: "2501 02502" }
+Sun Jun 11 2023 23:24 0 [AP] error: globalErrorHandler E11000 duplicate key error collection: university-management.users index: id_1 dup key: { id: "2502 02503" }
+Sun Jun 11 2023 23:34 19 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:34 41 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:35 37 [AP] error: globalErrorHandler Cannot set properties of undefined (setting 'id')
+Sun Jun 11 2023 23:36 8 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:36 24 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:36 50 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms
+Sun Jun 11 2023 23:37 58 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms

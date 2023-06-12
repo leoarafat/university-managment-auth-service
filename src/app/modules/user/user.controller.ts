@@ -2,10 +2,10 @@ import { Request, RequestHandler, Response } from 'express';
 import { UserService } from './user.service';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
-const createUserController: RequestHandler = catchAsync(
+const createStudent: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
-    const { user } = req.body;
-    const result = await UserService.createUser(user);
+    const { student, ...userData } = req.body;
+    const result = await UserService.createStudent(student, userData);
 
     sendResponse(res, {
       statusCode: 200,
@@ -16,5 +16,5 @@ const createUserController: RequestHandler = catchAsync(
   }
 );
 export const UserController = {
-  createUserController,
+  createStudent,
 };
