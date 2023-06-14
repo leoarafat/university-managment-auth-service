@@ -6,8 +6,10 @@ import AcademicSemester from '../academicSemester/academicSemester.model';
 import { IStudent } from '../student/student.interface';
 import { IUser } from './user.interface';
 import User from './user.model';
-import { generateStudentId } from './user.utils';
+import { generateAdminId, generateStudentId } from './user.utils';
 import { Student } from '../student/student.model';
+import { IAdmin } from '../admin/admin.interface';
+import { Admin } from '../admin/admin.model';
 
 const createStudent = async (
   student: IStudent,
@@ -68,6 +70,59 @@ const createStudent = async (
   }
   return newUserAllData;
 };
+
+//Create admin
+const createAdmin = async (
+  admin: IAdmin,
+  user: IUser
+): Promise<IUser | null> => {
+  //Need a default password
+  if (!user.password) {
+    user.password = config.default_student_password as string;
+  }
+  //set role
+  user.role = 'admin';
+
+  //generate student id
+  let newUserAllData = null;
+  const session = await mongoose.startSession();
+  try {
+    session.startTransaction();
+    const id = await generateAdminId();
+    user.id = id;
+    admin.id = id;
+    const NewAdmin = await Admin.create([admin], { session });
+    if (!NewAdmin.length) {
+      throw new ApiError(400, 'Failed to create student ');
+    }
+    //Set student id to user id
+    user.admin = NewAdmin[0]._id;
+    const NewUser = await User.create([user], { session });
+    if (!NewUser.length) {
+      throw new ApiError(400, 'Failed to create User ');
+    }
+    newUserAllData = NewUser[0];
+    await session.commitTransaction();
+    await session.endSession();
+  } catch (error) {
+    await session.abortTransaction();
+    await session.endSession();
+    errorLogger.error(error);
+    throw error;
+  }
+  if (newUserAllData) {
+    newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
+      path: 'admin',
+      populate: [
+        {
+          path: 'managementDepartment',
+        },
+      ],
+    });
+  }
+  return newUserAllData;
+};
 export const UserService = {
   createStudent,
+  createAdmin,
 };

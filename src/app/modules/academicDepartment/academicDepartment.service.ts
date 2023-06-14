@@ -11,6 +11,15 @@ import {
 import { academicDepartmentSearchableFields } from './academicDepartment.constans';
 import { AcademicDepartment } from './academicDepartment.model';
 
+const createDepartment = async (
+  payload: IAcademicDepartment
+): Promise<IAcademicDepartment | null> => {
+  const result = (await AcademicDepartment.create(payload)).populate(
+    'academicFaculty'
+  );
+  return result;
+};
+
 const getAllDepartments = async (
   filters: IAcademicDepartmentFilters,
   paginationOptions: IPaginationOptions
@@ -65,15 +74,6 @@ const getAllDepartments = async (
     },
     data: result,
   };
-};
-
-const createDepartment = async (
-  payload: IAcademicDepartment
-): Promise<IAcademicDepartment | null> => {
-  const result = (await AcademicDepartment.create(payload)).populate(
-    'academicFaculty'
-  );
-  return result;
 };
 
 const getSingleDepartment = async (

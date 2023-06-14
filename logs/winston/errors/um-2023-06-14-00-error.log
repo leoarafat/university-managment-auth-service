@@ -1,0 +1,44 @@
+Wed Jun 14 2023 0:36 26 [AP] error: Student validation failed: academicFaculty: Cast to ObjectId failed for value "6473b67a123d£7493739e2a0" (type string) at path "academicFaculty" because of "BSONError", academicDepartment: Cast to ObjectId failed for value "6473badee8dda33f1c0a3E" (type string) at path "academicDepartment" because of "BSONError", profileImage: Path `profileImage` is required.
+Wed Jun 14 2023 0:36 26 [AP] error: globalErrorHandler Student validation failed: academicFaculty: Cast to ObjectId failed for value "6473b67a123d£7493739e2a0" (type string) at path "academicFaculty" because of "BSONError", academicDepartment: Cast to ObjectId failed for value "6473badee8dda33f1c0a3E" (type string) at path "academicDepartment" because of "BSONError", profileImage: Path `profileImage` is required.
+Wed Jun 14 2023 0:37 46 [AP] error: Student validation failed: profileImage: Path `profileImage` is required.
+Wed Jun 14 2023 0:37 46 [AP] error: globalErrorHandler Student validation failed: profileImage: Path `profileImage` is required.
+Wed Jun 14 2023 0:47 51 [AP] error: globalErrorHandler [
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "startMonth"
+    ],
+    "message": "Started month is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "endMonth"
+    ],
+    "message": "End month is required"
+  }
+]
+Wed Jun 14 2023 0:51 57 [AP] error: globalErrorHandler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "academicFaculty"
+    ],
+    "message": "Academic Faculty is required"
+  }
+]
+Wed Jun 14 2023 0:53 42 [AP] error: E11000 duplicate key error collection: university-management.students index: email_1 dup key: { email: "user@gmail.com" }
+Wed Jun 14 2023 0:53 42 [AP] error: globalErrorHandler E11000 duplicate key error collection: university-management.students index: email_1 dup key: { email: "user@gmail.com" }
+Wed Jun 14 2023 0:54 12 [AP] error: E11000 duplicate key error collection: university-management.students index: contactNo_1 dup key: { contactNo: "user_4" }
+Wed Jun 14 2023 0:54 12 [AP] error: globalErrorHandler E11000 duplicate key error collection: university-management.students index: contactNo_1 dup key: { contactNo: "user_4" }
+Wed Jun 14 2023 0:54 44 [AP] error: E11000 duplicate key error collection: university-management.students index: contactNo_1 dup key: { contactNo: "user_4" }
+Wed Jun 14 2023 0:54 44 [AP] error: globalErrorHandler E11000 duplicate key error collection: university-management.students index: contactNo_1 dup key: { contactNo: "user_4" }

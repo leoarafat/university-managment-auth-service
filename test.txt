@@ -1,0 +1,47 @@
+http://localhost:5000/api/v1//users/create-student
+{
+  "password": "123456",
+  "student": {
+    "name": {
+      "firstName": "Test",
+      "lastName": "Islam",
+      "middleName": "Mehu"
+    },
+    "dateOfBirth": "24-04-1998",
+    "gender": "male",
+    "bloodGroup": "A+",
+    "email": "user@gmail.com",
+    "contactNo": "user_4",
+    "emergencyContactNo": "01600000000",
+    "presentAddress": "CTG",
+    "permanentAddress": "CTG",
+    "academicFaculty": "64884efa38254769b9fef3a7",
+    "academicDepartment": "64884f8e38254769b9fef3ac",
+    "academicSemester": "64884f6b38254769b9fef3a9",
+    "profileImage": "https//:hh.com",
+    "guardian": {
+      "fatherName": "MD. ABBU",
+      "fatherOccupation": "Retired Teacher",
+      "fatherContactNo": "01600000000",
+      "motherName": "Mrs. Ammu",
+      "motherOccupation": "Housewife",
+      "motherContactNo": "01600000000",
+      "address": "CTG"
+    },
+    "localGuardian": {
+      "name": "Zahid Hasan",
+      "occupation": "Service Holder",
+      "contactNo": "01600000000",
+      "address": "Dhaka"
+    }
+  }
+}
+
+http://localhost:5000/api/v1//academic-semesters/create-semester
+{
+    "title": "Autumn",
+    "code": "01",
+    "year": "2022",
+    "startMonth":"January",
+    "endMonth": "May"
+}

@@ -1,0 +1,1 @@
+Tue Jun 13 2023 15:39 0 [AP] error: globalErrorHandler E11000 duplicate key error collection: university-management.academicfaculties index: title_1 dup key: { title: "Faculty of Enlish" }
