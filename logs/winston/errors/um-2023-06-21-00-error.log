@@ -1,0 +1,2 @@
+Wed Jun 21 2023 0:10 24 [AP] error: E11000 duplicate key error collection: university-management.students index: email_1 dup key: { email: "john.doe@example.com" }
+Wed Jun 21 2023 0:10 24 [AP] error: globalErrorHandler E11000 duplicate key error collection: university-management.students index: email_1 dup key: { email: "john.doe@example.com" }

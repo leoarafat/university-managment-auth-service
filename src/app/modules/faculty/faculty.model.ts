@@ -1,9 +1,7 @@
-import mongoose from 'mongoose';
-import { AdminModel, IAdmin } from './admin.interface';
+import { Schema, Types, model } from 'mongoose';
+import { FacultyModel, IFaculty } from './faculty.interface';
 
-const { Schema, model } = mongoose;
-
-const AdminSchema = new Schema<IAdmin, AdminModel>(
+const FacultySchema = new Schema<IFaculty, FacultyModel>(
   {
     id: {
       type: String,
@@ -60,9 +58,9 @@ const AdminSchema = new Schema<IAdmin, AdminModel>(
       type: String,
       required: true,
     },
-    managementDepartment: {
-      type: Schema.Types.ObjectId,
-      ref: 'ManagementDepartment',
+    academicDepartment: {
+      type: Types.ObjectId,
+      ref: 'AcademicDepartment',
       required: true,
     },
     designation: {
@@ -71,6 +69,12 @@ const AdminSchema = new Schema<IAdmin, AdminModel>(
     },
     profileImage: {
       type: String,
+      // required: true,
+    },
+    academicFaculty: {
+      type: Types.ObjectId,
+      ref: 'AcademicFaculty',
+      required: true,
     },
   },
   {
@@ -78,4 +82,4 @@ const AdminSchema = new Schema<IAdmin, AdminModel>(
   }
 );
 
-export const Admin = model('Admin', AdminSchema);
+export const Faculty = model<IFaculty, FacultyModel>('Faculty', FacultySchema);

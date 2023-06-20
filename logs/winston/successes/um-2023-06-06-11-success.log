@@ -1,9 +1,0 @@
-{
-  errno: undefined,
-  code: 'ECONNREFUSED',
-  syscall: 'querySrv',
-  hostname: '_mongodb._tcp.cluster0.tjc9clz.mongodb.net',
-  level: 'error',
-  label: 'AP',
-  timestamp: '2023-06-06T03:53:08.861Z'
-}

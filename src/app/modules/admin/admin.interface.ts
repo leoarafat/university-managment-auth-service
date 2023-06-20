@@ -8,14 +8,14 @@ export type UserName = {
 export type IAdmin = {
   id: string;
   name: UserName;
-  dateOfBirth: string;
+  dateOfBirth?: string;
   gender: string;
   bloodGroup?: 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-' | 'O+' | 'O-';
   email: string;
   contactNo: string;
   emergencyContactNo: string;
-  presentAddress: string;
-  permanentAddress: string;
+  presentAddress?: string;
+  permanentAddress?: string;
   managementDepartment: Types.ObjectId | IManagementDepartment; //reference _id
   designation: string;
   profileImage?: string;
@@ -26,7 +26,11 @@ export type AdminModel = Model<IAdmin, Record<string, unknown>>;
 export type IAdminFilters = {
   searchTerm?: string;
   id?: string;
-  bloodGroup?: string;
   email?: string;
   contactNo?: string;
+  emergencyContactNo?: string;
+  gender?: 'male' | 'female';
+  bloodGroup?: 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-' | 'O+' | 'O-';
+  managementDepartment?: string;
+  designation?: string;
 };
