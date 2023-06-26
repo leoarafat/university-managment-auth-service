@@ -20,7 +20,7 @@ const auth =
 
       req.user = verifiedUser; // role , userid
 
-      // role diye guard korar jnno
+      // Guard for role
       if (requiredRoles.length && !requiredRoles.includes(verifiedUser.role)) {
         throw new ApiError(403, 'Forbidden');
       }

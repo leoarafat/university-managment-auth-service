@@ -1,3 +1,0 @@
-Fri Jun 09 2023 12:21 49 [AP] error:  invalid flag in regex options: 1
-Fri Jun 09 2023 12:23 17 [AP] error: $and/$or/$nor must be a nonempty array
-Fri Jun 09 2023 12:23 47 [AP] error: $and/$or/$nor must be a nonempty array

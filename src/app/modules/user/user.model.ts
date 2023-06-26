@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-this-alias */
 import { Schema, model } from 'mongoose';
 import { IUser, UserModel } from './user.interface';
 import bcrypt from 'bcrypt';
@@ -21,6 +22,9 @@ const UserSchema = new Schema<IUser, UserModel>(
     needsPasswordChange: {
       type: Boolean,
       default: true,
+    },
+    passwordChangeAt: {
+      type: Date,
     },
     student: {
       type: Schema.Types.ObjectId,
@@ -65,10 +69,15 @@ UserSchema.statics.isPasswordMatched = async function (
 };
 
 UserSchema.pre('save', async function (next) {
-  this.password = await bcrypt.hash(
-    this.password,
+  const user = this;
+  user.password = await bcrypt.hash(
+    user.password,
     Number(config.bcrypt_salt_rounds)
   );
+
+  if (!user.needsPasswordChange) {
+    user.passwordChangeAt = new Date();
+  }
   next();
 });
 
