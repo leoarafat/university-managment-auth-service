@@ -1,2 +1,0 @@
-Fri Jun 09 2023 19:23 19 [AP] error: globalErrorHandler Cast to ObjectId failed for value "647e06893abdf19f30ee46" (type string) at path "_id" for model "academicSemester"
-Fri Jun 09 2023 19:24 15 [AP] error: globalErrorHandler Invalid Semester Code

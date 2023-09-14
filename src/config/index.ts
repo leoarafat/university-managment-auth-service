@@ -9,6 +9,8 @@ export default {
   env: process.env.NODE_ENV,
   port: process.env.PORT,
   database_url: process.env.MONGO_URL,
+  redis_url: process.env.REDIS_URL,
+  redis_expires_in: process.env.REDIS_TOKEN_EXPIRES_IN,
   database_password: process.env.DB_PASSWORD,
   default_student_password: process.env.DEFAULT_STUDENT_PASSWORD,
   default_faculty_password: process.env.DEFAULT_FACULTY_PASSWORD,

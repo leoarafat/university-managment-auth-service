@@ -1,2 +1,0 @@
-Sun Jun 11 2023 22:46 9 [AP] error: Cannot read properties of undefined (reading 'year')
-Sun Jun 11 2023 22:47 1 [AP] error: Operation `users.findOne()` buffering timed out after 10000ms

@@ -6668,3 +6668,180 @@
   label: 'AP',
   timestamp: '2023-06-23T11:06:18.741Z'
 }
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-08-22T07:31:16.874Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-08-22T07:31:16.894Z'
+}
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-08-22T07:31:29.843Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-08-22T07:31:29.856Z'
+}
+{
+  message: 'Server selection timed out after 30000 ms',
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-fchdu0l-shard-00-00.tjc9clz.mongodb.net:27017' => ServerDescription {
+        address: 'ac-fchdu0l-shard-00-00.tjc9clz.mongodb.net:27017',
+        type: 'RSSecondary',
+        hosts: [
+          'ac-fchdu0l-shard-00-00.tjc9clz.mongodb.net:27017',
+          'ac-fchdu0l-shard-00-01.tjc9clz.mongodb.net:27017',
+          'ac-fchdu0l-shard-00-02.tjc9clz.mongodb.net:27017'
+        ],
+        passives: [],
+        arbiters: [],
+        tags: {
+          nodeType: 'ELECTABLE',
+          region: 'AP_SOUTH_1',
+          workloadType: 'OPERATIONAL',
+          provider: 'AWS'
+        },
+        minWireVersion: 0,
+        maxWireVersion: 17,
+        roundTripTime: 14507,
+        lastUpdateTime: 1546866,
+        lastWriteDate: 2023-09-14T06:44:07.000Z,
+        error: null,
+        topologyVersion: {
+          processId: new ObjectId("64f98541922382f3dc494e32"),
+          counter: 4
+        },
+        setName: 'atlas-83gxka-shard-0',
+        setVersion: 4,
+        electionId: null,
+        logicalSessionTimeoutMinutes: 30,
+        primary: 'ac-fchdu0l-shard-00-02.tjc9clz.mongodb.net:27017',
+        me: 'ac-fchdu0l-shard-00-00.tjc9clz.mongodb.net:27017',
+        '$clusterTime': {
+          clusterTime: new Timestamp({ t: 1694673847, i: 7 }),
+          signature: {
+            hash: <Buffer a8 60 58 21 7e f3 4a 37 76 18 87 1d 8a 87 63 d7 93 6f 34 67>,
+            keyId: new Long("7244238702992424962")
+          }
+        }
+      },
+      'ac-fchdu0l-shard-00-01.tjc9clz.mongodb.net:27017' => ServerDescription {
+        address: 'ac-fchdu0l-shard-00-01.tjc9clz.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 1532356,
+        lastWriteDate: 0,
+        error: null,
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'ac-fchdu0l-shard-00-02.tjc9clz.mongodb.net:27017' => ServerDescription {
+        address: 'ac-fchdu0l-shard-00-02.tjc9clz.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 1532356,
+        lastWriteDate: 0,
+        error: null,
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-83gxka-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: 30
+  },
+  code: undefined,
+  level: 'error',
+  label: 'AP',
+  timestamp: '2023-09-14T06:44:16.472Z'
+}
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-14T06:44:54.339Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-14T06:44:54.351Z'
+}
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-14T06:48:12.670Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-14T06:48:12.687Z'
+}
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-14T06:54:11.378Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-14T06:54:11.389Z'
+}
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-14T07:03:18.068Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-14T07:03:18.079Z'
+}

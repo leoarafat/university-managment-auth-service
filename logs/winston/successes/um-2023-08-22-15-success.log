@@ -2,23 +2,23 @@
   message: 'DB Connected on Successfully',
   level: 'info',
   label: 'AP',
-  timestamp: '2023-06-13T05:37:59.322Z'
+  timestamp: '2023-08-22T07:31:16.874Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'AP',
-  timestamp: '2023-06-13T05:37:59.341Z'
+  timestamp: '2023-08-22T07:31:16.894Z'
 }
 {
   message: 'DB Connected on Successfully',
   level: 'info',
   label: 'AP',
-  timestamp: '2023-06-13T05:53:29.920Z'
+  timestamp: '2023-08-22T07:31:29.843Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'AP',
-  timestamp: '2023-06-13T05:53:29.932Z'
+  timestamp: '2023-08-22T07:31:29.856Z'
 }
