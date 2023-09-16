@@ -15,11 +15,21 @@ export type IAcademicSemesterMonth =
 export type IAcademicSemesterTitle = 'Autumn' | 'Summer' | 'Fall';
 export type IAcademicSemesterCode = '01' | '02' | '03';
 export type IAcademicSemester = {
-  title: 'Autumn' | 'Summer' | 'Fall';
-  year: string;
-  code: '01' | '02' | '03';
+  title: IAcademicSemesterTitle;
+  year: number;
+  code: IAcademicSemesterCode;
   startMonth: IAcademicSemesterMonth;
   endMonth: IAcademicSemesterMonth;
+  syncId: string;
 };
 
 export type AcademicSemesterModel = Model<IAcademicSemester>;
+
+export type IAcademicSemesterCreatedEvent = {
+  title: string;
+  year: number;
+  code: string;
+  startMonth: string;
+  endMonth: string;
+  id: string;
+};
