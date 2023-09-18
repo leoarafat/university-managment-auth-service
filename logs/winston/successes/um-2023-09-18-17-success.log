@@ -1,0 +1,12 @@
+{
+  message: 'DB Connected on Successfully',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-18T09:09:10.137Z'
+}
+{
+  message: 'Example app listening on port 3001',
+  level: 'info',
+  label: 'AP',
+  timestamp: '2023-09-18T09:09:10.147Z'
+}
