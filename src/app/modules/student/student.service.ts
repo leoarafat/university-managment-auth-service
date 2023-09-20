@@ -7,8 +7,12 @@ import {
   IGenericResponse,
   IPaginationOptions,
 } from '../../../interfaces/paiginations';
-import { studentSearchableFields } from './student.constans';
+import {
+  EVENT_STUDENT_UPDATED,
+  studentSearchableFields,
+} from './student.constans';
 import ApiError from '../../../errors/ApiError';
+import { RedisClient } from '../../../shared/redis';
 
 const getAllStudents = async (
   filters: IStudentFilters,
@@ -116,6 +120,9 @@ const updateStudent = async (
   const result = await Student.findOneAndUpdate({ id }, updatedStudentData, {
     new: true,
   });
+  if (result) {
+    await RedisClient.publish(EVENT_STUDENT_UPDATED, JSON.stringify(result));
+  }
   return result;
 };
 

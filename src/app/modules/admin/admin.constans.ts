@@ -21,3 +21,4 @@ export const adminFilterableFields = [
   'name.lastName',
   'name.middleName',
 ];
+export const EVENT_ADMIN_UPDATED = 'admin.updated';

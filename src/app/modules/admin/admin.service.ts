@@ -98,6 +98,9 @@ const updateAdmin = async (
   const result = await Admin.findOneAndUpdate({ id }, updatedAdminData, {
     new: true,
   });
+  // if (result) {
+  //   await RedisClient.publish(EVENT_ADMIN_UPDATED, JSON.stringify(result));
+  // }
   return result;
 };
 
